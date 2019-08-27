@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Формы</title>
+	</head>
+	<body>
+		<h1>форма</h1>
+		<form action="#" method="post">
+		<p><label for="1">логин</label></p>		
+		<input type="text" name="login"value="ник" size="10" maxlength="10"id="1"/>
+		<p><label for="2">пароль</label></p>
+		<input type="password" size="20" name="password"id="2" />
+		<p>оцените сайт</p> 
+		<label><input type="radio" name="evaluation" value="excelent"checked="checked"/>отлично</label><BR/>
+		<label><input type="radio" name="evaluation" value="good"/>хорошо</label>	<BR/>	
+		<label><input type="radio" name="evaluation" value="bad"/>плохо</label><BR/>
+		<p>чем занимаетеся?</p>
+		<label><input type="checkbox" name="leisure[]" value="read"checked="checked">читаю</label></br>
+		<label><input type="checkbox" name="leisure[]" value="watch">tv</label></br>
+		<label><input type="checkbox" name="leisure[]" value="listen">muz</label></br>
+		<label><input type="checkbox" name="leisure[]" value="walk">street</label></br>
+		<p><label for="3">какие музыки?</label></p>
+		<select id="3" size="8" name="m.style[]"multiple="multiple">
+			<option value="1">поп</option>
+			<option value="2">рок</option>
+			<option value="3">реп</option>
+			<option value="4">хня</option>
+		</select>
+		<label for="4"><p>ваши интересы</p></label>
+		<textarea id="4" rows="10" cols="50" name="oi">пши</textarea>
+		 <br/><input type="submit"name="send" Value="отправить"/>
+		 <input type="reset" name="resert" value="сброс"/>
+		 <input type="button" name="button" value="кнопка"/></br>
+		 <input type="image"name="snd"src="images/send_btn.png">
+		</form>		
+	</body>
+</html>
