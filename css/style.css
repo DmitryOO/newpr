@@ -1,6 +1,11 @@
 p{
+<<<<<<< HEAD
 	color:rgba(52, 199, 52, 0.438);
 	font-family:Ari26al,"Times New Roman",Helvetica,sans-serif;
+=======
+	color:#262626;
+	font-family:Arial,"Times New Roman",Helvetica,sans-serif;
+>>>>>>> fuckyou
 	font-size:12pt;
 	font:12pt/1.5 Arial,"Times New Roman",Helvetica,sans-serif;
 	text-indent:35px;
@@ -9,7 +14,7 @@ p{
 
 
 #header{
-	color:#c23636;
+	color:#287bb3;
 	font-family:Arial,"Times New Roman",Helvetica,sans-serif;
 	font-size:40pt;
 	text-align:center;
